@@ -1,0 +1,99 @@
+* {
+    /* Box-sizing cut extra padding or margin but It's effect on padding and border take extra space */
+    box-sizing: border-box;
+}
+
+/* Box Model: Content, Padding, border, margin, box-sizing */
+
+/* h1 { */
+
+/* background-color: red; */
+/* width: 100%; */
+/* width: 400px; */
+/* To+bottom,left+right */
+/* padding: 0 50px; */
+/* margin: 10px; */
+/* border: 10px solid green; */
+
+/* Padding */
+/* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    top right bottom left */
+/* padding: 10px 10px 10px 10px; */
+
+/* top+bottom, left+right */
+/* padding: 10px 5px; */
+
+/* border: 10px solid green; */
+/*padding calculate =  400px + 5px + 5px + 10px + 10px = 430px */
+
+/* margin */
+/* margin: 10px; */
+/*padding+margin calculate  =  400px + 5px + 5px + 10px + 10px + margin + 10px + 10px + 10px + 10px = 470px */
+
+/* } */
+
+/* h2 {
+    background-color: green;
+
+} */
+/* inline & block element & Inline- block */
+h1,
+h2 {
+    background-color: green;
+    /* display: inline; */
+
+}
+
+a {
+    background-color: antiquewhite;
+    /* display: block; */
+    padding: 10px;
+    border: 2px solid blueviolet;
+    /* you cannot give margin inline element */
+    margin: 10px;
+    /* after display inline-block you got the margin every side inline element */
+    display: inline-block;
+
+
+}
+
+/* Uses Max width and Min-width */
+
+#para1 {
+    background-color: green;
+    /* width: 500px; */
+    height: 100px;
+    max-width: 500px;
+}
+
+#para2 {
+    background-color: brown;
+    /* width: 500px; */
+    /* Your page 100vertical height = 100vh */
+    height: 85vh;
+}
+
+/* Opacity */
+
+img {
+    opacity: 1;
+}
+
+img:hover {
+    opacity: 0.1;
+}
+
+/* Overflow */
+div {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: aquamarine;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}

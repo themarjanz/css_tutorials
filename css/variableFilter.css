@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variable declare */
+:root {
+    --text-color: #fff;
+}
+
+nav ul {
+    display: flex;
+    /* justify-content: center; */
+    position: fixed;
+    overflow: hidden;
+    top: 30%;
+    right: 38%;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(50%, 50%); */
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+li {
+    /* margin: 5x; */
+    list-style: none;
+    padding: 15px;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+li:hover {
+    background-color: orangered;
+}
+
+header {
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* filter */
+    filter: saturate(0.5);
+
+}
+
+header:hover {
+    /* filter */
+    filter: saturate(1);
+}
+
+main {
+    background-color: #2c2c2c;
+    color: var(--text-color);
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(33, 51, 45);
+    color: var(--text-color);
+    padding: 10px;
+    text-align: center;
+
+}

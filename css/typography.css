@@ -1,0 +1,43 @@
+/* Google font css */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap'); */
+
+
+/* Font-weight = 400 normal, 500 medium, 600semi-bold, 700bold, 800 extra-bold  900 ulta-bold*/
+/*  1rem = 16px = 100% */
+h2 {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    /* text-align: right; */
+    /* text-align: center; */
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    color: #FF6969;
+    text-decoration: underline;
+    text-indent: 10rem;
+    letter-spacing: 0.5rem;
+    /* text-shadow: 1rem 2rem green; */
+    text-shadow: 0.1rem 0.2rem green;
+    /* X Y = shadow */
+
+}
+
+p {
+    line-height: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Icon styling */
+.icon {
+    font-size: 2rem;
+    color: orange;
+}
+
+span {
+    font-size: 2rem;
+    color: red;
+}

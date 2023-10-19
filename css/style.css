@@ -1,0 +1,123 @@
+/* Universal Selector */
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    /* background-color: bisque; */
+}
+
+p {
+    /* color: green; */
+}
+
+/* h1,p,div,nav etc are element */
+
+/* Grouping selector */
+h3,
+p {
+    /* background-color: aquamarine; */
+}
+
+/* <!-- Nested selector --> */
+ul li a {
+    color: brown;
+}
+
+/* Id selection */
+#sec1 {
+    background-color: aquamarine;
+}
+
+/* class selection */
+
+.sec2 {
+    background-color: red;
+}
+
+.btn {
+    background-color: orange;
+}
+
+.first-div {
+    background-color: bisque;
+}
+
+/* Attribute */
+input[type="text"] {
+
+    background-color: aquamarine;
+}
+
+/*   <!-- Pseudo Class &  Pseudo element selectors --> */
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+/* Pseudo Class */
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+button:disabled {
+    background-color: grey;
+}
+
+input:focus {
+    background-color: greenyellow;
+}
+
+/* pseudo element */
+h4::first-letter {
+    color: red;
+}
+
+/* use before after must use content */
+h4::after {
+    content: '';
+    border: 5px solid orange;
+}
+
+h4::before {
+    /* content: "a"; */
+}
+
+/*class child */
+ul li:first-child {
+    color: green;
+}
+
+ul li:last-child {
+    color: purple;
+}
+
+ul li:nth-child(3) {
+    color: red;
+}
+
+/* descendent */
+/* div p {
+    color: green;
+} */
+
+/* descendent child > */
+#div1>p {
+    color: green;
+}
+
+/* + adjacent */
+
+#div2+p {
+    color: red;
+}
+
+/* ~ general */
+
+/* #div2~p {
+    color: orange;
+} */
